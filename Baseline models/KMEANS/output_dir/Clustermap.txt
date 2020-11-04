@@ -1,0 +1,12 @@
+#Aspect 10
+
+0: 'general', 1: 'price', 2: 'transit-location', 3: 'general', 4: 'general', 5: 'general', 6: 'general', 7: 'general', 8: 'general', 9: 'general'
+
+#Aspect20
+0: 'general', 1: 'general', 2: 'general', 3: 'general', 4: 'general', 5: 'transit-location',
+6: 'transit-location', 7: 'transit-location', 8: 'green-culture', 9: 'price',
+10: 'touristy', 11: 'multicultural', 12: 'price', 13: 'general', 14: 'price', 15: 'shopping', 
+16: 'general', 17: 'price', 18: 'general', 19: 'general'
+
+#Asp40
+0:'shopping', 1:'general', 2:'general', 3: 'safety', 4: 'general', 5: 'general', 6: 'price', 7: 'general', 8: 'general',9: 'general', 10: 'price', 11: 'general', 12: 'general', 13: 'price', 14: 'general', 15: 'general', 16: 'general', 17: 'transit-location', 18: 'general',19: 'transit-location', 20: 'price', 21: 'general', 22: 'general', 23: 'price', 24: 'general', 25: 'safety', 26: 'touristy', 27: 'general', 28: 'general',29: 'general', 30: 'general', 31: 'transit-location', 32: 'price', 33: 'price', 34: 'price', 35: 'price', 36:'shopping', 37:'general', 38: 'price', 39:'price'
