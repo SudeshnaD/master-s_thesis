@@ -1,0 +1,18 @@
+                  precision    recall  f1-score   support
+
+          dining      0.000     0.000     0.000        16
+         general      0.401     0.457     0.427       346
+    green-nature      0.000     0.000     0.000        28
+            live      0.000     0.000     0.000        67
+   multicultural      0.000     0.000     0.000        37
+       nightlife      0.271     0.634     0.380        41
+           price      0.300     0.290     0.295       145
+           quiet      0.000     0.000     0.000        19
+          safety      0.000     0.000     0.000       109
+        shopping      0.000     0.000     0.000        43
+        touristy      0.026     0.238     0.047        21
+transit-location      0.414     0.573     0.481       131
+
+        accuracy                          0.305      1003
+       macro avg      0.118     0.183     0.136      1003
+    weighted avg      0.247     0.305     0.269      1003

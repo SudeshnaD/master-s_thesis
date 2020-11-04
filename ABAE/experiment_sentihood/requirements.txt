@@ -1,0 +1,7 @@
+numpy
+tensorflow
+sklearn
+gensim<=3.1
+h5py
+tqdm
+keras>=2.0

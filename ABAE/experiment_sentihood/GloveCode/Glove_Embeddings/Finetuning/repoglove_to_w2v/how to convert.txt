@@ -1,0 +1,6 @@
+##how to convert the newembedding dict to word to vec format?
+
+-----1)convert embedding dictionary to the glove embedding txt file format:
+flat_a=[x+' '+' '.join(str(i) for i in y) for x,y in a.items()]
+
+-----2) convert text to word2vec using glove2word2vec.py
