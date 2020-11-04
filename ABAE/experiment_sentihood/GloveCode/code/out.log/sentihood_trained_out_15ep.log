@@ -1,0 +1,296 @@
+2020-04-12 21:18:41,508 INFO Arguments:
+2020-04-12 21:18:41,508 INFO   algorithm: adam
+2020-04-12 21:18:41,508 INFO   aspect_size: 14
+2020-04-12 21:18:41,508 INFO   batch_size: 32
+2020-04-12 21:18:41,508 INFO   command: train.py --emb-name /sentihood/glove.6B.100d.txt.word2vec --epochs 1 --domain sentihood --out-dir output_dir
+2020-04-12 21:18:41,508 INFO   domain: sentihood
+2020-04-12 21:18:41,508 INFO   emb_dim: 100
+2020-04-12 21:18:41,508 INFO   emb_name: /sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:18:41,509 INFO   epochs: 1
+2020-04-12 21:18:41,509 INFO   maxlen: 256
+2020-04-12 21:18:41,509 INFO   neg_size: 20
+2020-04-12 21:18:41,509 INFO   ortho_reg: 0.1
+2020-04-12 21:18:41,509 INFO   out_dir_path: output_dir
+2020-04-12 21:18:41,509 INFO   seed: 1234
+2020-04-12 21:18:41,509 INFO   vocab_size: 9000
+2020-04-12 21:18:41,604 INFO   Building model
+2020-04-12 21:18:41,644 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-12 21:18:41,699 INFO Loading embeddings from: /sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:18:41,699 INFO loading projection weights from /sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:20:16,698 INFO Arguments:
+2020-04-12 21:20:16,698 INFO   algorithm: adam
+2020-04-12 21:20:16,698 INFO   aspect_size: 14
+2020-04-12 21:20:16,699 INFO   batch_size: 32
+2020-04-12 21:20:16,699 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 1 --domain sentihood --out-dir output_dir
+2020-04-12 21:20:16,699 INFO   domain: sentihood
+2020-04-12 21:20:16,699 INFO   emb_dim: 100
+2020-04-12 21:20:16,699 INFO   emb_name: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:20:16,699 INFO   epochs: 1
+2020-04-12 21:20:16,699 INFO   maxlen: 256
+2020-04-12 21:20:16,699 INFO   neg_size: 20
+2020-04-12 21:20:16,699 INFO   ortho_reg: 0.1
+2020-04-12 21:20:16,699 INFO   out_dir_path: output_dir
+2020-04-12 21:20:16,699 INFO   seed: 1234
+2020-04-12 21:20:16,699 INFO   vocab_size: 9000
+2020-04-12 21:20:16,795 INFO   Building model
+2020-04-12 21:20:16,834 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-12 21:20:16,887 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:20:16,887 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:20:48,305 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:20:59,024 INFO   #vectors: 400000, #dimensions: 100
+2020-04-12 21:22:46,124 INFO Initializing word embedding matrix
+2020-04-12 21:22:46,167 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-04-12 21:22:46,168 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-04-12 21:22:49,410 INFO --------------------------------------------------------------------------------
+2020-04-12 21:22:58,550 INFO Epoch 0, train: 9s
+2020-04-12 21:22:58,550 INFO Total loss: 14.6126, max_margin_loss: 13.4468, ortho_reg: 1.1659
+2020-04-12 21:28:59,344 INFO Arguments:
+2020-04-12 21:28:59,344 INFO   algorithm: adam
+2020-04-12 21:28:59,344 INFO   aspect_size: 14
+2020-04-12 21:28:59,344 INFO   batch_size: 32
+2020-04-12 21:28:59,344 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 15 --domain sentihood --out-dir output_dir
+2020-04-12 21:28:59,344 INFO   domain: sentihood
+2020-04-12 21:28:59,344 INFO   emb_dim: 100
+2020-04-12 21:28:59,344 INFO   emb_name: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:28:59,344 INFO   epochs: 15
+2020-04-12 21:28:59,344 INFO   maxlen: 256
+2020-04-12 21:28:59,344 INFO   neg_size: 20
+2020-04-12 21:28:59,344 INFO   ortho_reg: 0.1
+2020-04-12 21:28:59,344 INFO   out_dir_path: output_dir
+2020-04-12 21:28:59,344 INFO   seed: 1234
+2020-04-12 21:28:59,344 INFO   vocab_size: 9000
+2020-04-12 21:28:59,440 INFO   Building model
+2020-04-12 21:28:59,480 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-12 21:28:59,534 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:28:59,535 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:29:31,139 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-04-12 21:29:41,890 INFO   #vectors: 400000, #dimensions: 100
+2020-04-12 21:31:29,399 INFO Initializing word embedding matrix
+2020-04-12 21:31:29,442 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-04-12 21:31:29,443 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-04-12 21:31:32,385 INFO --------------------------------------------------------------------------------
+2020-04-12 21:31:41,408 INFO Epoch 0, train: 8s
+2020-04-12 21:31:41,408 INFO Total loss: 14.6126, max_margin_loss: 13.4468, ortho_reg: 1.1659
+2020-04-12 21:31:42,994 INFO Epoch 1, train: 1s
+2020-04-12 21:31:42,994 INFO Total loss: 7.8690, max_margin_loss: 7.7649, ortho_reg: 0.1041
+2020-04-12 21:31:44,512 INFO Epoch 2, train: 1s
+2020-04-12 21:31:44,512 INFO Total loss: 6.9683, max_margin_loss: 6.9312, ortho_reg: 0.0371
+2020-04-12 21:31:45,951 INFO Epoch 3, train: 1s
+2020-04-12 21:31:45,951 INFO Total loss: 6.3003, max_margin_loss: 6.2296, ortho_reg: 0.0707
+2020-04-12 21:31:47,416 INFO Epoch 4, train: 1s
+2020-04-12 21:31:47,416 INFO Total loss: 6.0640, max_margin_loss: 5.9842, ortho_reg: 0.0799
+2020-04-12 21:31:49,073 INFO Epoch 5, train: 1s
+2020-04-12 21:31:49,073 INFO Total loss: 5.9783, max_margin_loss: 5.8949, ortho_reg: 0.0834
+2020-04-12 21:31:50,504 INFO Epoch 6, train: 1s
+2020-04-12 21:31:50,504 INFO Total loss: 5.8958, max_margin_loss: 5.8103, ortho_reg: 0.0856
+2020-04-12 21:31:52,143 INFO Epoch 7, train: 1s
+2020-04-12 21:31:52,143 INFO Total loss: 5.8322, max_margin_loss: 5.7454, ortho_reg: 0.0868
+2020-04-12 21:31:53,667 INFO Epoch 8, train: 1s
+2020-04-12 21:31:53,667 INFO Total loss: 5.7975, max_margin_loss: 5.7100, ortho_reg: 0.0875
+2020-04-12 21:31:55,390 INFO Epoch 9, train: 1s
+2020-04-12 21:31:55,392 INFO Total loss: 5.7735, max_margin_loss: 5.6851, ortho_reg: 0.0885
+2020-04-12 21:31:56,871 INFO Epoch 10, train: 1s
+2020-04-12 21:31:56,871 INFO Total loss: 5.7124, max_margin_loss: 5.6234, ortho_reg: 0.0890
+2020-04-12 21:31:58,315 INFO Epoch 11, train: 1s
+2020-04-12 21:31:58,315 INFO Total loss: 5.7508, max_margin_loss: 5.6609, ortho_reg: 0.0900
+2020-04-12 21:31:59,893 INFO Epoch 12, train: 1s
+2020-04-12 21:31:59,893 INFO Total loss: 5.7082, max_margin_loss: 5.6174, ortho_reg: 0.0908
+2020-04-12 21:32:01,527 INFO Epoch 13, train: 1s
+2020-04-12 21:32:01,527 INFO Total loss: 5.6483, max_margin_loss: 5.5569, ortho_reg: 0.0914
+2020-04-12 21:32:03,195 INFO Epoch 14, train: 1s
+2020-04-12 21:32:03,195 INFO Total loss: 5.6762, max_margin_loss: 5.5840, ortho_reg: 0.0922
+2020-04-14 15:35:46,075 INFO Arguments:
+2020-04-14 15:35:46,076 INFO   algorithm: adam
+2020-04-14 15:35:46,076 INFO   aspect_size: 14
+2020-04-14 15:35:46,076 INFO   batch_size: 32
+2020-04-14 15:35:46,076 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:35:46,076 INFO   domain: app_reviews
+2020-04-14 15:35:46,076 INFO   emb_dim: 100
+2020-04-14 15:35:46,076 INFO   emb_name: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:35:46,076 INFO   epochs: 15
+2020-04-14 15:35:46,076 INFO   maxlen: 256
+2020-04-14 15:35:46,076 INFO   neg_size: 20
+2020-04-14 15:35:46,076 INFO   ortho_reg: 0.1
+2020-04-14 15:35:46,076 INFO   out_dir_path: output
+2020-04-14 15:35:46,076 INFO   seed: 1234
+2020-04-14 15:35:46,076 INFO   vocab_size: 9000
+2020-04-14 15:36:26,547 INFO Arguments:
+2020-04-14 15:36:26,547 INFO   algorithm: adam
+2020-04-14 15:36:26,547 INFO   aspect_size: 14
+2020-04-14 15:36:26,547 INFO   batch_size: 32
+2020-04-14 15:36:26,547 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:36:26,547 INFO   domain: app_reviews
+2020-04-14 15:36:26,547 INFO   emb_dim: 100
+2020-04-14 15:36:26,547 INFO   emb_name: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:36:26,547 INFO   epochs: 15
+2020-04-14 15:36:26,547 INFO   maxlen: 256
+2020-04-14 15:36:26,547 INFO   neg_size: 20
+2020-04-14 15:36:26,547 INFO   ortho_reg: 0.1
+2020-04-14 15:36:26,547 INFO   out_dir_path: output
+2020-04-14 15:36:26,547 INFO   seed: 1234
+2020-04-14 15:36:26,547 INFO   vocab_size: 9000
+2020-04-14 15:36:56,384 INFO Arguments:
+2020-04-14 15:36:56,385 INFO   algorithm: adam
+2020-04-14 15:36:56,385 INFO   aspect_size: 14
+2020-04-14 15:36:56,385 INFO   batch_size: 32
+2020-04-14 15:36:56,385 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec --epochs 15 --domain sentihood --out-dir output_dir
+2020-04-14 15:36:56,385 INFO   domain: sentihood
+2020-04-14 15:36:56,385 INFO   emb_dim: 100
+2020-04-14 15:36:56,385 INFO   emb_name: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:36:56,385 INFO   epochs: 15
+2020-04-14 15:36:56,385 INFO   maxlen: 256
+2020-04-14 15:36:56,385 INFO   neg_size: 20
+2020-04-14 15:36:56,385 INFO   ortho_reg: 0.1
+2020-04-14 15:36:56,385 INFO   out_dir_path: output_dir
+2020-04-14 15:36:56,385 INFO   seed: 1234
+2020-04-14 15:36:56,385 INFO   vocab_size: 9000
+2020-04-14 15:36:56,485 INFO   Building model
+2020-04-14 15:36:56,526 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-14 15:36:56,579 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:36:56,579 INFO loading projection weights from ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:38:34,344 INFO loaded (1193514, 100) matrix from ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 15:39:05,874 INFO   #vectors: 1193514, #dimensions: 100
+2020-04-14 15:46:57,518 INFO Initializing word embedding matrix
+2020-04-14 15:46:57,560 INFO 3445/3796 word vectors initialized (hit rate: 90.75%)
+2020-04-14 15:46:57,561 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-04-14 15:47:05,095 INFO --------------------------------------------------------------------------------
+2020-04-14 15:47:14,701 INFO Epoch 0, train: 9s
+2020-04-14 15:47:14,702 INFO Total loss: 17.1775, max_margin_loss: 15.4988, ortho_reg: 1.6787
+2020-04-14 15:47:16,245 INFO Epoch 1, train: 1s
+2020-04-14 15:47:16,246 INFO Total loss: 8.6271, max_margin_loss: 8.4729, ortho_reg: 0.1542
+2020-04-14 15:47:17,716 INFO Epoch 2, train: 1s
+2020-04-14 15:47:17,716 INFO Total loss: 7.0778, max_margin_loss: 7.0647, ortho_reg: 0.0131
+2020-04-14 15:47:19,135 INFO Epoch 3, train: 1s
+2020-04-14 15:47:19,135 INFO Total loss: 6.5540, max_margin_loss: 6.5517, ortho_reg: 0.0023
+2020-04-14 15:47:20,581 INFO Epoch 4, train: 1s
+2020-04-14 15:47:20,582 INFO Total loss: 6.2740, max_margin_loss: 6.2716, ortho_reg: 0.0024
+2020-04-14 15:47:22,102 INFO Epoch 5, train: 1s
+2020-04-14 15:47:22,102 INFO Total loss: 6.1247, max_margin_loss: 6.1203, ortho_reg: 0.0044
+2020-04-14 15:47:23,616 INFO Epoch 6, train: 1s
+2020-04-14 15:47:23,616 INFO Total loss: 5.9856, max_margin_loss: 5.9790, ortho_reg: 0.0065
+2020-04-14 15:47:25,083 INFO Epoch 7, train: 1s
+2020-04-14 15:47:25,083 INFO Total loss: 5.8856, max_margin_loss: 5.8770, ortho_reg: 0.0086
+2020-04-14 15:47:26,513 INFO Epoch 8, train: 1s
+2020-04-14 15:47:26,513 INFO Total loss: 5.8052, max_margin_loss: 5.7942, ortho_reg: 0.0110
+2020-04-14 15:47:27,935 INFO Epoch 9, train: 1s
+2020-04-14 15:47:27,935 INFO Total loss: 5.7323, max_margin_loss: 5.7178, ortho_reg: 0.0144
+2020-04-14 15:47:29,374 INFO Epoch 10, train: 1s
+2020-04-14 15:47:29,374 INFO Total loss: 5.6181, max_margin_loss: 5.6007, ortho_reg: 0.0175
+2020-04-14 15:47:30,925 INFO Epoch 11, train: 1s
+2020-04-14 15:47:30,925 INFO Total loss: 5.6039, max_margin_loss: 5.5815, ortho_reg: 0.0224
+2020-04-14 15:47:32,527 INFO Epoch 12, train: 1s
+2020-04-14 15:47:32,527 INFO Total loss: 5.5032, max_margin_loss: 5.4778, ortho_reg: 0.0254
+2020-04-14 15:47:34,083 INFO Epoch 13, train: 1s
+2020-04-14 15:47:34,083 INFO Total loss: 5.4290, max_margin_loss: 5.4045, ortho_reg: 0.0246
+2020-04-14 15:47:35,554 INFO Epoch 14, train: 1s
+2020-04-14 15:47:35,554 INFO Total loss: 5.4247, max_margin_loss: 5.4004, ortho_reg: 0.0244
+2020-04-14 16:22:20,150 INFO Arguments:
+2020-04-14 16:22:20,150 INFO   algorithm: adam
+2020-04-14 16:22:20,150 INFO   aspect_size: 14
+2020-04-14 16:22:20,150 INFO   batch_size: 32
+2020-04-14 16:22:20,150 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec --epochs 15 --domain sentihood --out-dir output_dir
+2020-04-14 16:22:20,150 INFO   domain: sentihood
+2020-04-14 16:22:20,150 INFO   emb_dim: 100
+2020-04-14 16:22:20,150 INFO   emb_name: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 16:22:20,150 INFO   epochs: 15
+2020-04-14 16:22:20,150 INFO   maxlen: 256
+2020-04-14 16:22:20,150 INFO   neg_size: 20
+2020-04-14 16:22:20,151 INFO   ortho_reg: 0.1
+2020-04-14 16:22:20,151 INFO   out_dir_path: output_dir
+2020-04-14 16:22:20,151 INFO   seed: 1234
+2020-04-14 16:22:20,151 INFO   vocab_size: 9000
+2020-04-14 16:22:20,364 INFO   Building model
+2020-04-14 16:22:20,429 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-14 16:22:20,533 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 16:22:20,533 INFO loading projection weights from ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 16:24:01,285 INFO loaded (1193514, 100) matrix from ../preprocessed_data/sentihood/glove.twitter.27B.100d.word2vec
+2020-04-14 16:24:33,776 INFO   #vectors: 1193514, #dimensions: 100
+2020-04-14 16:34:04,552 INFO Initializing word embedding matrix
+2020-04-14 16:34:04,595 INFO 3445/3796 word vectors initialized (hit rate: 90.75%)
+2020-04-14 16:34:04,597 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-04-14 16:34:12,568 INFO --------------------------------------------------------------------------------
+2020-04-14 16:34:21,998 INFO Epoch 0, train: 9s
+2020-04-14 16:34:21,998 INFO Total loss: 17.1775, max_margin_loss: 15.4988, ortho_reg: 1.6787
+2020-04-14 16:34:23,807 INFO Epoch 1, train: 1s
+2020-04-14 16:34:23,808 INFO Total loss: 8.6271, max_margin_loss: 8.4729, ortho_reg: 0.1542
+2020-04-14 16:34:25,432 INFO Epoch 2, train: 1s
+2020-04-14 16:34:25,433 INFO Total loss: 7.0778, max_margin_loss: 7.0647, ortho_reg: 0.0131
+2020-04-14 16:34:26,888 INFO Epoch 3, train: 1s
+2020-04-14 16:34:26,888 INFO Total loss: 6.5540, max_margin_loss: 6.5517, ortho_reg: 0.0023
+2020-04-14 16:34:28,361 INFO Epoch 4, train: 1s
+2020-04-14 16:34:28,362 INFO Total loss: 6.2740, max_margin_loss: 6.2716, ortho_reg: 0.0024
+2020-04-14 16:34:29,978 INFO Epoch 5, train: 1s
+2020-04-14 16:34:29,978 INFO Total loss: 6.1247, max_margin_loss: 6.1203, ortho_reg: 0.0044
+2020-04-14 16:34:31,468 INFO Epoch 6, train: 1s
+2020-04-14 16:34:31,468 INFO Total loss: 5.9856, max_margin_loss: 5.9790, ortho_reg: 0.0065
+2020-04-14 16:34:33,141 INFO Epoch 7, train: 1s
+2020-04-14 16:34:33,141 INFO Total loss: 5.8856, max_margin_loss: 5.8770, ortho_reg: 0.0086
+2020-04-14 16:34:35,056 INFO Epoch 8, train: 1s
+2020-04-14 16:34:35,056 INFO Total loss: 5.8052, max_margin_loss: 5.7942, ortho_reg: 0.0110
+2020-04-14 16:34:36,540 INFO Epoch 9, train: 1s
+2020-04-14 16:34:36,540 INFO Total loss: 5.7323, max_margin_loss: 5.7178, ortho_reg: 0.0144
+2020-04-14 16:34:38,477 INFO Epoch 10, train: 1s
+2020-04-14 16:34:38,478 INFO Total loss: 5.6181, max_margin_loss: 5.6007, ortho_reg: 0.0175
+2020-04-14 16:34:39,951 INFO Epoch 11, train: 1s
+2020-04-14 16:34:39,952 INFO Total loss: 5.6039, max_margin_loss: 5.5815, ortho_reg: 0.0224
+2020-04-14 16:34:41,482 INFO Epoch 12, train: 1s
+2020-04-14 16:34:41,482 INFO Total loss: 5.5032, max_margin_loss: 5.4778, ortho_reg: 0.0254
+2020-04-14 16:34:42,990 INFO Epoch 13, train: 1s
+2020-04-14 16:34:42,990 INFO Total loss: 5.4290, max_margin_loss: 5.4045, ortho_reg: 0.0246
+2020-04-14 16:34:44,530 INFO Epoch 14, train: 1s
+2020-04-14 16:34:44,530 INFO Total loss: 5.4247, max_margin_loss: 5.4004, ortho_reg: 0.0244
+2020-04-15 22:30:57,269 INFO Arguments:
+2020-04-15 22:30:57,269 INFO   algorithm: adam
+2020-04-15 22:30:57,269 INFO   aspect_size: 14
+2020-04-15 22:30:57,270 INFO   batch_size: 32
+2020-04-15 22:30:57,270 INFO   command: train.py --emb-name ../preprocessed_data/sentihood/sentihood_glove.txt.word2vec --epochs 15 --domain sentihood --out-dir output_dir
+2020-04-15 22:30:57,270 INFO   domain: sentihood
+2020-04-15 22:30:57,270 INFO   emb_dim: 100
+2020-04-15 22:30:57,270 INFO   emb_name: ../preprocessed_data/sentihood/sentihood_glove.txt.word2vec
+2020-04-15 22:30:57,270 INFO   epochs: 15
+2020-04-15 22:30:57,270 INFO   maxlen: 256
+2020-04-15 22:30:57,270 INFO   neg_size: 20
+2020-04-15 22:30:57,270 INFO   ortho_reg: 0.1
+2020-04-15 22:30:57,270 INFO   out_dir_path: output_dir
+2020-04-15 22:30:57,270 INFO   seed: 1234
+2020-04-15 22:30:57,270 INFO   vocab_size: 9000
+2020-04-15 22:30:57,365 INFO   Building model
+2020-04-15 22:30:57,408 INFO 'pattern' package not found; tag filters are not available for English
+2020-04-15 22:30:57,463 INFO Loading embeddings from: ../preprocessed_data/sentihood/sentihood_glove.txt.word2vec
+2020-04-15 22:30:57,463 INFO loading projection weights from ../preprocessed_data/sentihood/sentihood_glove.txt.word2vec
+2020-04-15 22:30:57,496 INFO loaded (829, 50) matrix from ../preprocessed_data/sentihood/sentihood_glove.txt.word2vec
+2020-04-15 22:30:57,505 INFO   #vectors: 829, #dimensions: 50
+2020-04-15 22:31:00,365 INFO Initializing word embedding matrix
+2020-04-15 22:31:00,371 INFO 816/3796 word vectors initialized (hit rate: 21.50%)
+2020-04-15 22:31:00,372 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-04-15 22:31:00,393 INFO --------------------------------------------------------------------------------
+2020-04-15 22:31:08,292 INFO Epoch 0, train: 7s
+2020-04-15 22:31:08,293 INFO Total loss: 20.8461, max_margin_loss: 17.7965, ortho_reg: 3.0496
+2020-04-15 22:31:09,082 INFO Epoch 1, train: 0s
+2020-04-15 22:31:09,083 INFO Total loss: 12.7320, max_margin_loss: 11.1974, ortho_reg: 1.5346
+2020-04-15 22:31:09,873 INFO Epoch 2, train: 0s
+2020-04-15 22:31:09,873 INFO Total loss: 9.7083, max_margin_loss: 8.5481, ortho_reg: 1.1602
+2020-04-15 22:31:10,528 INFO Epoch 3, train: 0s
+2020-04-15 22:31:10,528 INFO Total loss: 6.9352, max_margin_loss: 6.0161, ortho_reg: 0.9191
+2020-04-15 22:31:11,216 INFO Epoch 4, train: 0s
+2020-04-15 22:31:11,216 INFO Total loss: 6.1430, max_margin_loss: 5.4273, ortho_reg: 0.7157
+2020-04-15 22:31:11,896 INFO Epoch 5, train: 0s
+2020-04-15 22:31:11,896 INFO Total loss: 5.7449, max_margin_loss: 5.1872, ortho_reg: 0.5576
+2020-04-15 22:31:12,630 INFO Epoch 6, train: 0s
+2020-04-15 22:31:12,630 INFO Total loss: 5.4653, max_margin_loss: 5.0271, ortho_reg: 0.4382
+2020-04-15 22:31:13,356 INFO Epoch 7, train: 0s
+2020-04-15 22:31:13,356 INFO Total loss: 5.2656, max_margin_loss: 4.9173, ortho_reg: 0.3483
+2020-04-15 22:31:14,133 INFO Epoch 8, train: 0s
+2020-04-15 22:31:14,134 INFO Total loss: 5.0604, max_margin_loss: 4.7796, ortho_reg: 0.2807
+2020-04-15 22:31:14,832 INFO Epoch 9, train: 0s
+2020-04-15 22:31:14,832 INFO Total loss: 4.9425, max_margin_loss: 4.7120, ortho_reg: 0.2305
+2020-04-15 22:31:15,516 INFO Epoch 10, train: 0s
+2020-04-15 22:31:15,516 INFO Total loss: 4.8445, max_margin_loss: 4.6509, ortho_reg: 0.1937
+2020-04-15 22:31:16,201 INFO Epoch 11, train: 0s
+2020-04-15 22:31:16,201 INFO Total loss: 4.7839, max_margin_loss: 4.6171, ortho_reg: 0.1668
+2020-04-15 22:31:16,866 INFO Epoch 12, train: 0s
+2020-04-15 22:31:16,866 INFO Total loss: 4.7196, max_margin_loss: 4.5720, ortho_reg: 0.1476
+2020-04-15 22:31:17,521 INFO Epoch 13, train: 0s
+2020-04-15 22:31:17,521 INFO Total loss: 4.6711, max_margin_loss: 4.5369, ortho_reg: 0.1343
+2020-04-15 22:31:18,198 INFO Epoch 14, train: 0s
+2020-04-15 22:31:18,198 INFO Total loss: 4.6186, max_margin_loss: 4.4934, ortho_reg: 0.1251
