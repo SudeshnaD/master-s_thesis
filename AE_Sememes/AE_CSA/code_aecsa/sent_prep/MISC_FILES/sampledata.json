@@ -1,0 +1,27 @@
+    [{
+        "opinions": [
+            {
+                "sentiment": "Positive",
+                "aspect": "safety",
+                "target_entity": "LOCATION1"
+            }
+        ],
+        "id": 153,
+        "text": "   LOCATION1 is in Greater London  and is a very safe place"
+    },
+    {
+        "opinions": [],
+        "id": 731,
+        "text": "  Find the website for 'Museum in LOCATION1' (part of the Museum of London)"
+    },
+
+    {
+        "opinions": [],
+        "id": 751,
+        "text": "  Here is the LOCATION1 branch  Here i"
+    },
+    {
+        "opinions": [],
+        "id": 705,
+        "text": "  I come from LOCATION1 so a lot of people famous are from or move here"
+    }]

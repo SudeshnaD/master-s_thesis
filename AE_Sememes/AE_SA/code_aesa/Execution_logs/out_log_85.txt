@@ -1,0 +1,72 @@
+Using Theano backend.
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+2020-06-08 07:12:38,476 INFO Arguments:
+2020-06-08 07:12:38,476 INFO   algorithm: adam
+2020-06-08 07:12:38,476 INFO   aspect_size: 85
+2020-06-08 07:12:38,476 INFO   batch_size: 32
+2020-06-08 07:12:38,476 INFO   command: train_analysis.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 15 --domain sentihood --out-dir output_dir -as 85
+2020-06-08 07:12:38,476 INFO   domain: sentihood
+2020-06-08 07:12:38,476 INFO   emb_dim: 100
+2020-06-08 07:12:38,476 INFO   emb_name: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:12:38,476 INFO   epochs: 15
+2020-06-08 07:12:38,476 INFO   maxlen: 256
+2020-06-08 07:12:38,476 INFO   neg_size: 20
+2020-06-08 07:12:38,477 INFO   ortho_reg: 0.1
+2020-06-08 07:12:38,477 INFO   out_dir_path: output_dir
+2020-06-08 07:12:38,477 INFO   seed: 1234
+2020-06-08 07:12:38,477 INFO   vocab_size: 9000
+2020-06-08 07:12:38,577 INFO   Building model
+2020-06-08 07:12:38,616 INFO 'pattern' package not found; tag filters are not available for English
+2020-06-08 07:12:38,676 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:12:38,676 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:13:21,157 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:13:32,352 INFO   #vectors: 400000, #dimensions: 100
+2020-06-08 07:32:37,002 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-06-08 07:32:42,048 INFO --------------------------------------------------------------------------------
+2020-06-08 07:32:42,049 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:32:42,049 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:33:18,331 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 07:33:32,552 INFO   #vectors: 400000, #dimensions: 100
+2020-06-08 07:36:35,761 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:36:35,903 INFO Epoch 0, train: 180s
+2020-06-08 07:36:35,904 INFO Total loss: 20.9526, max_margin_loss: 8.6902, ortho_reg: 12.2623
+2020-06-08 07:39:29,894 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:39:29,991 INFO Epoch 1, train: 173s
+2020-06-08 07:39:29,991 INFO Total loss: 12.0436, max_margin_loss: 7.0826, ortho_reg: 4.9610
+2020-06-08 07:42:24,109 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:42:24,199 INFO Epoch 2, train: 173s
+2020-06-08 07:42:24,199 INFO Total loss: 7.4690, max_margin_loss: 4.6268, ortho_reg: 2.8423
+2020-06-08 07:45:29,804 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:45:29,895 INFO Epoch 3, train: 185s
+2020-06-08 07:45:29,895 INFO Total loss: 4.8172, max_margin_loss: 2.8274, ortho_reg: 1.9898
+2020-06-08 07:48:35,607 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:48:35,689 INFO Epoch 4, train: 185s
+2020-06-08 07:48:35,689 INFO Total loss: 3.3327, max_margin_loss: 1.8213, ortho_reg: 1.5114
+2020-06-08 07:51:51,266 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:51:51,338 INFO Epoch 5, train: 195s
+2020-06-08 07:51:51,338 INFO Total loss: 2.7093, max_margin_loss: 1.5262, ortho_reg: 1.1831
+2020-06-08 07:54:52,503 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:54:52,614 INFO Epoch 6, train: 181s
+2020-06-08 07:54:52,614 INFO Total loss: 2.3997, max_margin_loss: 1.4489, ortho_reg: 0.9508
+2020-06-08 07:58:00,196 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:58:00,291 INFO Epoch 7, train: 187s
+2020-06-08 07:58:00,291 INFO Total loss: 2.1974, max_margin_loss: 1.4162, ortho_reg: 0.7812
+2020-06-08 08:01:07,628 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 08:01:07,701 INFO Epoch 8, train: 187s
+2020-06-08 08:01:07,701 INFO Total loss: 2.1293, max_margin_loss: 1.4783, ortho_reg: 0.6510
+2020-06-08 08:04:12,416 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 08:04:12,493 INFO Epoch 9, train: 184s
+2020-06-08 08:04:12,493 INFO Total loss: 1.8612, max_margin_loss: 1.3123, ortho_reg: 0.5489
+2020-06-08 08:07:41,265 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 08:07:41,347 INFO Epoch 10, train: 208s
+2020-06-08 08:07:41,348 INFO Total loss: 1.7585, max_margin_loss: 1.2948, ortho_reg: 0.4637
+2020-06-08 08:10:53,319 INFO Epoch 11, train: 191s
+2020-06-08 08:10:53,319 INFO Total loss: 1.8482, max_margin_loss: 1.4542, ortho_reg: 0.3940
+2020-06-08 08:14:02,238 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 08:14:02,312 INFO Epoch 12, train: 188s
+2020-06-08 08:14:02,312 INFO Total loss: 1.6647, max_margin_loss: 1.3271, ortho_reg: 0.3376
+2020-06-08 08:17:02,135 INFO Epoch 13, train: 179s
+2020-06-08 08:17:02,135 INFO Total loss: 1.7124, max_margin_loss: 1.4196, ortho_reg: 0.2928
+2020-06-08 08:20:34,474 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 08:20:34,625 INFO Epoch 14, train: 212s
+2020-06-08 08:20:34,626 INFO Total loss: 1.5912, max_margin_loss: 1.3357, ortho_reg: 0.2555

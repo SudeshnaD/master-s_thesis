@@ -1,0 +1,76 @@
+Using Theano backend.
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+2020-06-08 06:47:34,304 INFO Arguments:
+2020-06-08 06:47:34,304 INFO   algorithm: adam
+2020-06-08 06:47:34,304 INFO   aspect_size: 55
+2020-06-08 06:47:34,304 INFO   batch_size: 32
+2020-06-08 06:47:34,304 INFO   command: train_analysis.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 15 --domain sentihood --out-dir output_dir -as 55
+2020-06-08 06:47:34,304 INFO   domain: sentihood
+2020-06-08 06:47:34,304 INFO   emb_dim: 100
+2020-06-08 06:47:34,304 INFO   emb_name: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:47:34,304 INFO   epochs: 15
+2020-06-08 06:47:34,304 INFO   maxlen: 256
+2020-06-08 06:47:34,304 INFO   neg_size: 20
+2020-06-08 06:47:34,304 INFO   ortho_reg: 0.1
+2020-06-08 06:47:34,304 INFO   out_dir_path: output_dir
+2020-06-08 06:47:34,304 INFO   seed: 1234
+2020-06-08 06:47:34,304 INFO   vocab_size: 9000
+2020-06-08 06:47:34,403 INFO   Building model
+2020-06-08 06:47:34,443 INFO 'pattern' package not found; tag filters are not available for English
+2020-06-08 06:47:34,498 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:47:34,498 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:48:05,076 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:48:15,869 INFO   #vectors: 400000, #dimensions: 100
+2020-06-08 06:56:41,268 INFO Initializing aspect embedding matrix as centroid of kmean clusters
+2020-06-08 06:56:46,068 INFO --------------------------------------------------------------------------------
+2020-06-08 06:56:46,070 INFO Loading embeddings from: ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:56:46,070 INFO loading projection weights from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:57:20,112 INFO loaded (400000, 100) matrix from ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec
+2020-06-08 06:57:33,769 INFO   #vectors: 400000, #dimensions: 100
+2020-06-08 07:00:14,168 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:00:14,223 INFO Epoch 0, train: 156s
+2020-06-08 07:00:14,223 INFO Total loss: 14.7117, max_margin_loss: 8.5493, ortho_reg: 6.1624
+2020-06-08 07:02:48,287 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:02:48,373 INFO Epoch 1, train: 153s
+2020-06-08 07:02:48,374 INFO Total loss: 9.6837, max_margin_loss: 6.7659, ortho_reg: 2.9177
+2020-06-08 07:05:24,313 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:05:24,373 INFO Epoch 2, train: 155s
+2020-06-08 07:05:24,373 INFO Total loss: 6.3264, max_margin_loss: 4.5391, ortho_reg: 1.7873
+2020-06-08 07:07:59,814 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:07:59,874 INFO Epoch 3, train: 155s
+2020-06-08 07:07:59,874 INFO Total loss: 4.2489, max_margin_loss: 2.9985, ortho_reg: 1.2504
+2020-06-08 07:10:30,584 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:10:30,658 INFO Epoch 4, train: 150s
+2020-06-08 07:10:30,659 INFO Total loss: 2.9032, max_margin_loss: 1.9679, ortho_reg: 0.9353
+2020-06-08 07:13:13,766 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:13:13,836 INFO Epoch 5, train: 163s
+2020-06-08 07:13:13,836 INFO Total loss: 2.3293, max_margin_loss: 1.6075, ortho_reg: 0.7218
+2020-06-08 07:16:48,879 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:16:48,977 INFO Epoch 6, train: 214s
+2020-06-08 07:16:48,978 INFO Total loss: 2.0459, max_margin_loss: 1.4775, ortho_reg: 0.5684
+2020-06-08 07:20:34,184 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:20:34,331 INFO Epoch 7, train: 225s
+2020-06-08 07:20:34,332 INFO Total loss: 1.8858, max_margin_loss: 1.4274, ortho_reg: 0.4583
+2020-06-08 07:23:59,749 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:23:59,923 INFO Epoch 8, train: 205s
+2020-06-08 07:23:59,923 INFO Total loss: 1.8554, max_margin_loss: 1.4811, ortho_reg: 0.3744
+2020-06-08 07:27:23,589 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:27:23,878 INFO Epoch 9, train: 203s
+2020-06-08 07:27:23,878 INFO Total loss: 1.6243, max_margin_loss: 1.3163, ortho_reg: 0.3081
+2020-06-08 07:30:31,709 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:30:31,809 INFO Epoch 10, train: 187s
+2020-06-08 07:30:31,809 INFO Total loss: 1.5649, max_margin_loss: 1.3095, ortho_reg: 0.2554
+INFO (theano.gof.compilelock): Waiting for existing lock by process '16423' (I am process '7079')
+2020-06-08 07:33:46,332 INFO Waiting for existing lock by process '16423' (I am process '7079')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/sdasgupta/.theano/compiledir_Linux-4.4--generic-x86_64-with-debian-stretch-sid-x86_64-3.7.3-64/lock_dir
+2020-06-08 07:33:46,333 INFO To manually release the lock, delete /home/sdasgupta/.theano/compiledir_Linux-4.4--generic-x86_64-with-debian-stretch-sid-x86_64-3.7.3-64/lock_dir
+2020-06-08 07:34:00,108 INFO Epoch 11, train: 208s
+2020-06-08 07:34:00,109 INFO Total loss: 1.6770, max_margin_loss: 1.4633, ortho_reg: 0.2137
+2020-06-08 07:36:39,349 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:36:39,473 INFO Epoch 12, train: 159s
+2020-06-08 07:36:39,473 INFO Total loss: 1.5134, max_margin_loss: 1.3316, ortho_reg: 0.1818
+2020-06-08 07:38:54,279 INFO Epoch 13, train: 134s
+2020-06-08 07:38:54,279 INFO Total loss: 1.5807, max_margin_loss: 1.4227, ortho_reg: 0.1580
+2020-06-08 07:41:11,644 INFO 3501/3796 word vectors initialized (hit rate: 92.23%)
+2020-06-08 07:41:11,710 INFO Epoch 14, train: 137s
+2020-06-08 07:41:11,710 INFO Total loss: 1.4887, max_margin_loss: 1.3503, ortho_reg: 0.1384

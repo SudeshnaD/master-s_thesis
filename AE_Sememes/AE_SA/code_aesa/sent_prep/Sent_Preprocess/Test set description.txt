@@ -1,0 +1,26 @@
+Test set description:
+
+Sentihood-test.json has 488 unlabelled data points and 1003 labelled data points.
+For evaluation purpose we only use labelled data points extracted in two files: labelledtest and test_label.
+
+Unlabelled examples for reference:
+{
+        "opinions": [],
+        "id": 432,
+        "text": "Yes, boundary change many years ago enclosed LOCATION1 into the Greater London area "
+    },
+    {
+        "opinions": [],
+        "id": 375,
+        "text": "Yesterday I cycled from LOCATION2 in the west, through LOCATION1 to the London and saw precisely nothing"
+    },
+    {
+        "opinions": [],
+        "id": 498,
+        "text": "You also get to see LOCATION1 :-)"
+    },
+    {
+        "opinions": [],
+        "id": 314,
+        "text": "You are a cockney if at the time of birth you can hear the sound of LOCATION1 bells"
+    }
