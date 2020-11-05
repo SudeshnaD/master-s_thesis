@@ -35,4 +35,4 @@ Notebooks to visualize and calculate area under curve (AUC) for the coherence sc
 Papers referred for the thesis.
 
 #### Report
-The thesis report.
+The thesis report and final presentation.
