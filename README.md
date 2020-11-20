@@ -24,15 +24,17 @@ Opinions and reviews help individuals to make decisions. Opinion mining on socia
 #### AE_Sememes
 - AE-SA : code for implementing the AE-SA model.
 - AE-CSA : code for implementing the AE-CSA model.
+
 For training run in code/, code_aesa/, code_aecsa/ folder:
-python train.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 1 --domain sentihood --out-dir output_dir -as $x
+
+```python train.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 1 --domain sentihood --out-dir output_dir -as $x```
 
 where emb-name is the path to the pre-trained word embeddings, out-dir is the path of the output directory and as is the number of inferred aspects to be generated. After training, two output files will be saved in code/output_dir/ , which are 1) *aspect.log* : contains extracted aspects with top 100 words for each of them, 2) *model_param* contains the saved model weights.
 
 ## Evaluation
 We rebuild the network architecture and then load the saved model weights. Values of arguments used are the same as those for training.
 Under code/ and type the following command:
-```bash
+```
 python evaluation_sent.py \
 --domain sentihood \
 -o output_dir 
