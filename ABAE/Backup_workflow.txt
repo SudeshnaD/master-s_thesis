@@ -1,7 +1,0 @@
-1. save code backup to experiment_Sentihood_FUNCTIONAL BACKUPS
-
-2. add code to git_code_py3_keras2compliant, for pushing to AE_GLOVE and online repository Aspect Extraction.
-
-
-
-Note: (Only save / add code, no dataset with size > 10MB will be pushed)

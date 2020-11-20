@@ -1,0 +1,13 @@
+                  precision    recall  f1-score   support
+
+         general      0.481     0.792     0.598       346
+   multicultural      0.636     0.189     0.292        37
+       nightlife      0.278     0.122     0.169        41
+           price      0.249     0.324     0.281       145
+          safety      0.276     0.073     0.116       109
+        shopping      0.158     0.070     0.097        43
+transit-location      0.375     0.046     0.082       131
+
+        accuracy                          0.411       852
+       macro avg      0.350     0.231     0.234       852
+    weighted avg      0.379     0.411     0.344       852
