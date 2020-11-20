@@ -1,5 +1,7 @@
 # Deep Learning Approaches for Opinion Mining on Conversational Social Media Texts
 
+The [thesis report](https://github.com/SudeshnaD/master-s_thesis/blob/main/Report/M_Info_15102020_Dasgupta_Sudeshna.pdf) and [final presentation](https://github.com/SudeshnaD/master-s_thesis/blob/main/Report/Thesis_final%20Presentation_SudeshnaDasgupta.pdf).
+
 ## Abstract
 Opinions and reviews help individuals to make decisions. Opinion mining on social media conversational text such as forum discussions, product reviews provides valuable insight on user sentiment. In a span of review text, opinions are expressed towards aspect terms. To understand the fine-grained sentiment expressed toward each aspect in a product review, aspect term identification and aspect term categorization is needed. Jointly they are referred to as **aspect extraction**. In this thesis, we perform an empirical study of three unsupervised deep learning models to perform aspect extraction on the Sentihood dataset. 
 >To evaluate the models we use multiple word embeddings to conduct extensive experiments. We evaluate our observations using quantitative and qualitative analysis of extracted aspects, and the micro F1 scores for the task of aspect classification.
