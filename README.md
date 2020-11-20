@@ -41,7 +41,7 @@ Opinions and reviews help individuals to make decisions. Opinion mining on socia
 
 ## Folder Structure
 
-#### ABAE
+**ABAE**
 - code: scripts for implementing the ABAE model, forked from  https://github.com/madrugado/Attention-Based-Aspect-Extraction
 - preprocessed_data: 
 	- cleaned dataset for experiments
@@ -50,11 +50,22 @@ Opinions and reviews help individuals to make decisions. Opinion mining on socia
 	- script for calculating UMass coherence score and WETC score
 	- results for ABAE and ABAE_SH model.
 
-#### AE_Sememes
+**AE_Sememes**
 - AE-SA : code for implementing the AE-SA model.
 - AE-CSA : code for implementing the AE-CSA model.
 
-For training run in code/, code_aesa/, code_aecsa/ folder:
+
+**Baseline models** : Code for implementing NMF and Kmeans baseline models.
+
+**Coherence_Visualization** : Notebooks to visualize and calculate area under curve (AUC) for the coherence scores for all models.
+
+**Literature** : Papers referred for the thesis.
+
+**Report** : The thesis report and final presentation.
+
+## For training:
+
+Run in code/, code_aesa/, code_aecsa/ folder:
 
 ```python train.py --emb-name ../preprocessed_data/sentihood/glove.6B.100d.txt.word2vec --epochs 1 --domain sentihood --out-dir output_dir -as $x```
 
@@ -76,15 +87,3 @@ python evaluation_sent.py \
 This will output a file *att_weights* that contains the attention weights on all test sentences in code/output_dir/.
 
 To assign each test sentence a gold aspect label, a cluster map is created by manually mapping each inferred aspect to a gold aspect label according to its top words. For evaluaton using F scores, the trained model is used as sentence classifier where predicted class of a sentence is a gold aspect label.
-
-#### Baseline models
-Code for implementing NMF and Kmeans baseline models.
-
-#### Coherence_Visualization
-Notebooks to visualize and calculate area under curve (AUC) for the coherence scores for all models.
-
-#### Literature
-Papers referred for the thesis.
-
-#### Report
-The thesis report and final presentation.
