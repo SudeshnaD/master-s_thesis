@@ -18,7 +18,7 @@ Opinions and reviews help individuals to make decisions. Opinion mining on socia
 
 #### ABAE
 - code: scripts for implementing the ABAE model, forked from  https://github.com/madrugado/Attention-Based-Aspect-Extraction
-- preprocessed_data: cleaned dataset for experiments.
+- preprocessed_data: cleaned dataset for experiments, and pre-trained word embeddings.
 - CoherenceScore: script for calculating UMass coherence score and WETC score, and results for ABAE and ABAE_SH model.
 
 #### AE_Sememes
