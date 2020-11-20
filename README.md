@@ -3,6 +3,32 @@
 ## Abstract
 Opinions and reviews help individuals to make decisions. Opinion mining on social media conversational text such as forum discussions, product reviews provides valuable insight on user sentiment. In a span of review text, opinions are expressed towards aspect terms. To understand the fine-grained sentiment expressed toward each aspect in a product review, aspect term identification and aspect term categorization is needed. Jointly they are referred to as aspect extraction. In this thesis, we perform an empirical study of three unsupervised deep learning models to perform aspect extraction on the Sentihood dataset. To evaluate the models we use multiple word embeddings to conduct extensive experiments. We evaluate our observations using quantitative and qualitative analysis of extracted aspects, and the micro F1 scores for the task of aspect classification.
 
+
+##Research Objective
+Empirical study of unsupervised aspect extraction on Sentihood dataset.
+
+
+####Sentihood dataset: 
+*Item Training corpus: 3724 samples
+*Item Test dataset: 1003 samples
+*Item Dataset consists of reviews about the urban neighborhoods in London. 
+*Item 12 predefined aspect labels:
+ ’live’, ’safety’, ’price’, ’quiet’, ’dining’, ’nightlife’, ’transit-location’, ’touristy’, ’shopping’, ’green-culture’, ’multicultural’, ’general’
+
+We want to know: 
+1. Item Underlying challenges in extracting aspects from a dataset with
+	 -Item large number of aspect labels
+	 -Item explicit as well as implicit aspect labels 
+2. If domain of dataset influences the choice of approach for aspect extraction 
+3. if transfer learning can resolve the inadequacy of training data.
+
+####Approaches applied in this thesis: 
+*Item Attention Based Aspect Extraction (ABAE) 
+*Item Aspect Extraction with Sememe Attentions (AE-SA)
+*Item Aspect Extraction via Context-enhanced Sememe Attentions (AE-CSA)
+
+
+
 ## Environment
 - python 3.7.1 
 - keras 2.3.1
